@@ -1,0 +1,58 @@
+body{
+  background:#333;
+  color:#fff;
+}
+
+.navbar{
+  border-bottom:tomato 3px solid;
+  
+}
+
+hr{
+  color:white;
+}
+
+button.btn-outline-primay{
+  border:1px solid white;
+}
+
+header#home{
+  padding-top:60px;
+  background:url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.dark-overlay{
+  min-height: 700px;
+  background: rgba(0,0,0,0.7);
+}
+
+header#home .card{
+  opacity: 0.8;
+}
+
+header#home .fas{
+  color:#008ed6;
+  background:white;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.icon{
+  color:white;
+  background: #333;
+  border-radius: 5px;
+}
+
+.icon2{
+  color:#333;
+  background:#008ed6;
+  padding:2px;
+  border-radius: 5px;
+}
+body{
+  scroll-behavior: smooth;
+}
